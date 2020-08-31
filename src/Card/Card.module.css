@@ -1,0 +1,25 @@
+.image{
+    height: 200px;
+    width: 100%;
+}
+
+.catCard{
+    padding: 10px
+}
+
+.heading{
+    margin: 0 0 0 2px
+}
+
+.para{
+    margin : 0 0 0 2px;
+    font-size: 1.1em;
+}
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100;
+}

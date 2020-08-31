@@ -1,0 +1,41 @@
+.App {
+  font-family: 'Pragati Narrow', sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.mainup{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 30px;
+  flex-wrap: 'wrap';
+}
+
+.maindown{
+  display: flex;
+  flex-direction: column;
+  padding : 0 30px
+}
+
+.loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.divSpace {
+  width: 33%
+}
+
+@media only screen and (max-width: 540px) {
+  .mainup{
+    flex-direction: column;
+  }
+  .divSpace{
+    width: 100%;
+    margin-bottom: 10px
+  }
+}

@@ -1,0 +1,28 @@
+.editform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.root{
+    padding: 5px;
+    margin-top: 7px;
+    width: 80%;
+}
+
+.buttonDiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7px;
+}
+

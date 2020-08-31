@@ -1,0 +1,27 @@
+.catGallery{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image{
+    height: 150px;
+    width: 100%;
+}
+
+.card{
+    width: 200px;
+    height: 100;
+    margin: 5px;
+    padding: 10px;
+    margin:  15px
+}
+
+.heading{
+    margin: 0 0 0 2px;
+}
+
+.para {
+    margin: 0 0 0 2px;
+}
