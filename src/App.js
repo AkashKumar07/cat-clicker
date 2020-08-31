@@ -79,7 +79,7 @@ function App() {
          timeout={3000} //3 secs
       /></div>:(
       <React.Fragment>
-      <h2>Cat Clicker App</h2>
+      <h2 style={{textAlign: 'center'}}>Cat Clicker App</h2>
       <div className={classes.mainup}>
         <div className={classes.divSpace}>
           <List data = {data} current={handleCurrent} index = {index}/>

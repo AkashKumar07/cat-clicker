@@ -80,8 +80,8 @@ const EditFormButton = (props) => {
     return(
         <React.Fragment>
             <div className={classes.editform}>
-            <div style={{width: '100%', alignItems: 'left'}}>
-            <Button style={{marginLeft: '20px'}} onClick={toggleForm} variant="contained" color="primary">
+            <div style={{width: '100%', display:'flex', justifyContent: 'space-around'}}>
+            <Button  onClick={toggleForm} variant="contained" color="primary">
                 Open Form
             </Button>
             </div>
